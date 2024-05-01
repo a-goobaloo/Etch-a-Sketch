@@ -1,6 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #container{
@@ -8,12 +12,20 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     height: 100%;
-    width: 100%;
+    width: 50%;
+    
+    
 }
 .row{
-    height: 75px;
-    width: 5.93%;
-    border: solid;
+    height: 32px;
+    width: 5.7%;
+    border: 1px solid;
+} 
+
+.title{
+   
+    font-weight: 200;
+    
 }
 
 

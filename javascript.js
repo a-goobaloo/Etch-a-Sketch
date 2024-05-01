@@ -14,6 +14,13 @@ const b = Math.floor(Math.random() * 255);
 
 
 const draw = document.querySelector("div");
-draw.addEventListener("mouseover", (e) => {
+draw.addEventListener("mousedown", (e) => {
     e.target.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+})
+
+const button = document.querySelector(".size");
+button.addEventListener("click", () => {
+    // const size = parseInt(prompt("Enter number of squares per side: "));
+    const deleteItem = document.querySelector("#container");
+    deleteItem.remove();
 })
